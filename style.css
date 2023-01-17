@@ -112,3 +112,47 @@ h1.h1Title{
     width: 3rem;
     height: auto;
 }
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    margin-top: 50px;
+}
+.carder-header{
+    padding: 0.5rem;
+    border-bottom:1px solid rgba(0, 0, 0, 0.315) ;
+}
+.card{
+    max-width: 310px;
+    margin: 10px;
+    margin-right: 0;
+}
+.carder-body{
+    padding: 16px;
+}
+@media (max-width:576px) {
+    .row-col-xs-1{
+        width: 310px;
+        flex:0 0 100% ;
+    }
+}
+@media (min-width:576px) {
+    .row-col-sm-2{
+        width: 50%;
+        flex:0 0 50% ;
+    }
+}
+@media (min-width:768px) {
+    .row-col-md-3{
+        width: 33.333%;
+        flex:0 0 33.3333% ;
+    }
+}
+@media (min-width:992px) {
+    .row-col-lg-4{
+        max-width: 25%;
+        flex:0 0 25%;
+        
+    }
+}

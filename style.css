@@ -82,3 +82,33 @@ h1.h1Title{
         font-size: calc(2rem + 5vw)!important;
     }
 }
+@media (min-width: 768px) {
+    .border-md-right{
+        border-right: 1px solid #dee2e6 !important;
+        border-bottom: 0px  !important;
+    }
+}
+.shadow-box{
+    box-shadow: 0 30px 50px -30px rgba(44, 44, 44, 0.459);
+}
+.pd{
+    padding: 6rem 2rem;
+    
+}
+.bth-raduis{
+    border-radius: 2rem;
+    margin: 0.25rem 0.25rem;
+}
+.z-index-3{
+    z-index: 3;
+}
+.bg-li{
+    margin-top: -6rem;
+    /* position: relative; */
+    background-color: white;
+    border-radius: 5px;
+}
+.svg-w-h{
+    width: 3rem;
+    height: auto;
+}
